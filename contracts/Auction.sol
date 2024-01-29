@@ -1,7 +1,7 @@
 //SPDX-License-Identifier:GPL-3.0
 pragma solidity ^0.8.4;
 
-contract SimpleAuction {
+contract Auction {
     address payable public beneficiary;
     uint public auctionEndTime;
     address public highestBidder;
